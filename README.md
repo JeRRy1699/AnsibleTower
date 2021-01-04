@@ -1,2 +1,2 @@
 # AnsibleTower
-Ansible tower test 
+This repo is just for testing a playbook on ansible tower 
