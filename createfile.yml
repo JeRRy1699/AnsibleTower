@@ -1,7 +1,8 @@
 ---
 - hosts: localhost
   tasks:
-    file:
-      path: /home/thomas/newfile
-      state: touch
+    - name: create file
+      file:
+        path: /home/thomas/newfile
+        state: touch
       
