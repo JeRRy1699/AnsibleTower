@@ -1,0 +1,7 @@
+---
+- hosts: localhost
+  tasks:
+    - name: add line
+      lineinfile:
+        path: /tmp/newfile
+        line: "{{ ansible_default_ipv4.address }}"
