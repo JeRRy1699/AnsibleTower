@@ -3,6 +3,6 @@
   tasks:
     - name: create file
       file:
-        path: /home/thomas/newfile
+        path: /tmp/newfile
         state: touch
       
