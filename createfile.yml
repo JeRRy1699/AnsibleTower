@@ -1,8 +1,0 @@
----
-- hosts: localhost
-  tasks:
-    - name: create file
-      file:
-        path: /tmp/newfile
-        state: touch
-      
