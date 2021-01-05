@@ -3,11 +3,11 @@
   tasks:
     - name: create file
       file:
-        path: /tmp/newfile
+        path: /home/thomas/new
         state: touch
         
     - name: add line
       lineinfile:
-        path: /tmp/newfile
+        path: /home/thomas/new
         line: "{{ ansible_default_ipv4.address }}"
       
