@@ -1,0 +1,7 @@
+---
+- hosts: localhost
+  tasks:
+    file:
+      path: /home/thomas/newfile
+      state: touch
+      
